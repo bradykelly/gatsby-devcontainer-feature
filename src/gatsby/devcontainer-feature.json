@@ -1,0 +1,19 @@
+{
+    "name": "Gatsby Setup",
+    "id": "gatsby-setup",
+    "version": "1.0.0",
+    "description": "Sets up all dependencies and tooling for generating Gatsby static websites",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/npm-package"
+    ]
+}
